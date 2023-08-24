@@ -1,0 +1,61 @@
+Test Case: iOS Accessibility - Cerebral Palsy User with Eyebrow Switch Control
+
+**Objective:** To verify the effectiveness of the Switch Control accessibility feature on an iOS device for a user with cerebral palsy, utilizing eyebrow movement as the switch input method.
+
+**Preconditions:**
+1. An iOS device with the latest software version is available.
+2. Switch Control is enabled in Settings > Accessibility > Switch Control.
+3. Eyebrow movement has been configured as the switch input method.
+
+**Test Steps:**
+
+1. **Eyebrow Activation:**
+   - Ensure that the user's eyebrow movement has been properly calibrated and configured as the switch input method in Switch Control settings.
+   - Trigger the eyebrow-based switch activation.
+   - Verify that the Switch Control overlay menu appears on the screen.
+
+2. **Navigate Through Items:**
+   - Use the eyebrow movement to navigate through on-screen items.
+   - Verify that the currently highlighted item is indicated visually and audibly.
+   - Ensure that the item navigation follows the selected scanning style (e.g., auto, manual).
+
+3. **Select an Item:**
+   - Navigate to an actionable item using eyebrow-based switch control.
+   - Use the eyebrow activation to select the item.
+   - Verify that the selected item responds as expected (e.g., opens, performs an action).
+
+4. **Perform Action:**
+   - Select an item that triggers an action (e.g., "Tap") using the eyebrow-based switch.
+   - Use the eyebrow activation to perform the action.
+   - Verify that the action is executed correctly (e.g., the app opens, a button is tapped).
+
+5. **Scrolling:**
+   - Open an app or screen with scrollable content (e.g., a webpage, list).
+   - Use the eyebrow-based switch to scroll through the content.
+   - Verify that the content scrolls in the expected direction and at a controllable speed.
+
+6. **Custom Gestures:**
+   - Configure a custom gesture in Switch Control settings.
+   - Navigate to an item where the custom gesture is applicable.
+   - Use the eyebrow-based switch to trigger the custom gesture.
+   - Verify that the gesture is executed correctly and the desired action is performed.
+
+7. **Multi-Step Actions:**
+   - Test multi-step actions that require sequential selections (e.g., typing a message) using the eyebrow-based switch.
+   - Use the switch to navigate through each step of the action.
+   - Verify that the sequence of selections is accurate and leads to the intended outcome.
+
+8. **Return to Home Screen:**
+   - Navigate to the home screen using the eyebrow-based switch.
+   - Verify that the home screen is accessible and items can be selected as expected.
+
+9. **App Switching:**
+   - Navigate between open apps using the eyebrow-based switch.
+   - Verify that the app switcher is accessible and app selection works as intended.
+
+**Postconditions:**
+Switch Control accessibility feature using eyebrow movement has been thoroughly tested and verified for its functionality with the user's input method.
+
+**Notes:**
+- Sensitivity settings for the eyebrow-based switch should be adjusted to match the user's comfort and control.
+- Document any challenges or issues encountered during testing and report them as needed.
