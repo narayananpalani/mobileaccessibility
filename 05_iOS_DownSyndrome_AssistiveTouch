@@ -1,0 +1,60 @@
+Test Case: iOS Accessibility - User with Down Syndrome Using AssistiveTouch with Switch Control
+
+**Objective:** To validate the effectiveness and ease of use of AssistiveTouch with Switch Control for a user with Down Syndrome on an iOS device.
+
+**Preconditions:**
+1. An iOS device with the latest software version is available.
+2. AssistiveTouch is enabled in Settings > Accessibility > Touch > AssistiveTouch.
+3. Switch Control is enabled in Settings > Accessibility > Switch Control.
+4. At least one switch (hardware or on-screen) is configured for use with Switch Control.
+
+**Test Steps:**
+
+1. **Activation and Navigation:**
+   - Assist the user in activating Switch Control and AssistiveTouch using the configured switch.
+   - Observe as the user navigates through the on-screen options using the switch.
+   - Ensure that the user can activate and navigate the AssistiveTouch menu with ease.
+
+2. **Opening Apps:**
+   - Instruct the user to select and open a specific app from the home screen using AssistiveTouch.
+   - Support the user as they use the switch to navigate and select the app.
+   - Verify that the selected app opens as expected.
+
+3. **Performing Simple Actions:**
+   - Guide the user to use AssistiveTouch to perform simple actions like tapping a button within an app.
+   - Ensure the user can accurately select the target using the switch.
+   - Verify that the intended action is carried out within the app.
+
+4. **Custom Gestures:**
+   - Assist the user in creating a custom gesture within AssistiveTouch settings.
+   - Instruct the user to navigate to an app or screen where the custom gesture can be executed.
+   - Support the user as they use the switch to trigger the custom gesture.
+   - Verify that the custom gesture performs the intended action.
+
+5. **Scrolling and Interacting:**
+   - Help the user open a scrollable content (e.g., webpage, list) within an app.
+   - Guide the user to use the switch to scroll through the content.
+   - Ensure the user can pause scrolling and interact with items within the content.
+   - Verify that scrolling and interaction work smoothly.
+
+6. **Multi-Step Actions:**
+   - Demonstrate to the user a multi-step action, such as composing a message.
+   - Assist the user in using AssistiveTouch and Switch Control to navigate through the steps.
+   - Verify that the user can successfully complete the multi-step action.
+
+7. **Returning to Home Screen:**
+   - Instruct the user to use AssistiveTouch to return to the home screen.
+   - Ensure the user can navigate back without difficulty.
+   - Verify that the home screen is accessible and items can be selected.
+
+8. **App Switching:**
+   - Assist the user in navigating between open apps using AssistiveTouch and Switch Control.
+   - Observe as the user switches between apps.
+   - Verify that the app switcher is usable and app selection works as intended.
+
+**Postconditions:**
+The user with Down Syndrome has successfully interacted with the iOS device using AssistiveTouch and Switch Control, performing various tasks with accuracy and ease.
+
+**Notes:**
+- Be patient and understanding while assisting the user during the testing process.
+- Record any observations, feedback, or challenges faced by the user, as it can provide valuable insights into the usability of the accessibility features.
