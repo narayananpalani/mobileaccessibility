@@ -1,0 +1,61 @@
+Test Case: iOS Accessibility - Eye Blink Control for User with Cerebral Palsy
+
+**Objective:** To verify the functionality and usability of the Switch Control accessibility feature, using eye blinks as the input method, for a user with cerebral palsy on an iOS device.
+
+**Preconditions:**
+1. An iOS device with the latest software version is available.
+2. Switch Control is enabled in Settings > Accessibility > Switch Control.
+3. The device is set up to recognize eye blinks as a switch input for Switch Control.
+4. The user's calibration for eye blink sensitivity is configured in Switch Control settings.
+
+**Test Steps:**
+
+1. **Switch Control Activation with Eye Blink:**
+   - Ensure that Switch Control is enabled and configured to recognize eye blinks.
+   - Initiate eye blink(s) based on the user's calibration to activate Switch Control.
+   - Verify that the Switch Control overlay menu appears on the screen.
+
+2. **Navigate Through Items:**
+   - Use eye blinks to navigate through on-screen items.
+   - Verify that the currently highlighted item is indicated visually and audibly.
+   - Ensure that the item navigation follows the selected scanning style (e.g., auto, manual).
+
+3. **Select an Item:**
+   - Navigate to an actionable item using eye blinks.
+   - Use eye blinks to select the item.
+   - Verify that the selected item responds as expected (e.g., opens, performs an action).
+
+4. **Perform Action:**
+   - Select an item that triggers an action (e.g., "Tap") using eye blinks.
+   - Verify that the action is executed correctly (e.g., the app opens, a button is tapped).
+
+5. **Scrolling:**
+   - Open an app or screen with scrollable content using eye blinks.
+   - Use eye blinks to scroll through the content.
+   - Verify that the content scrolls in the expected direction and at a controllable speed.
+
+6. **Custom Gestures:**
+   - Configure a custom gesture in Switch Control settings.
+   - Navigate to an item where the custom gesture is applicable using eye blinks.
+   - Use eye blinks to trigger the custom gesture.
+   - Verify that the gesture is executed correctly and the desired action is performed.
+
+7. **Multi-Step Actions:**
+   - Test multi-step actions that require sequential selections using eye blinks (e.g., typing a message).
+   - Navigate through each step of the action with eye blinks.
+   - Verify that the sequence of selections is accurate and leads to the intended outcome.
+
+8. **Return to Home Screen:**
+   - Navigate to the home screen using eye blinks.
+   - Verify that the home screen is accessible and items can be selected using eye blinks.
+
+9. **App Switching:**
+   - Navigate between open apps using eye blinks.
+   - Verify that the app switcher is accessible and app selection works as intended.
+
+**Postconditions:**
+The Switch Control accessibility feature, utilizing eye blinks as an input method, has been thoroughly tested and verified for functionality and usability for a user with cerebral palsy.
+
+**Notes:**
+- Be patient and considerate during testing, as users with cerebral palsy may have varying levels of control and coordination.
+- Any issues encountered during testing should be documented and reported as defects.
