@@ -1,0 +1,65 @@
+Test Case: iOS Accessibility Settings Verification
+
+**Objective:** To verify the functionality and usability of various accessibility settings on an iOS device.
+
+**Preconditions:**
+1. An iOS device with the latest software version is available.
+2. The device is not configured with any custom accessibility settings.
+
+**Test Steps:**
+
+1. **VoiceOver:**
+   - Enable VoiceOver from Settings > Accessibility > VoiceOver.
+   - Verify that the device speaks the name of the selected item when touched.
+   - Verify that swiping right reads the next item and swiping left reads the previous item.
+   - Verify that gestures like double-tap, three-finger swipe, and two-finger double-tap work as expected.
+
+2. **Zoom:**
+   - Enable Zoom from Settings > Accessibility > Zoom.
+   - Verify that the screen zooms in when the appropriate gesture is performed (double-tap with three fingers).
+   - Verify that the user can pan around the screen when zoomed in.
+   - Verify that Zoom settings like Zoom Region and Zoom Filter can be adjusted.
+
+3. **Display & Text Size:**
+   - Navigate to Settings > Accessibility > Display & Text Size.
+   - Increase and decrease the text size using the slider.
+   - Verify that the text size changes accordingly in apps like Messages and Notes.
+   - Test the "Bold Text" toggle and verify that it applies to system and app text.
+
+4. **Color Filters:**
+   - Enable Color Filters from Settings > Accessibility > Display & Text Size > Color Filters.
+   - Select different color filters (e.g., Grayscale, Red/Green Filter) and verify their effects on the screen.
+   - Test color inversion and verify that it applies to system UI elements and apps.
+
+5. **Magnifier:**
+   - Enable Magnifier from Settings > Accessibility > Magnifier.
+   - Triple-click the Home button (or use assigned shortcut) to open the magnifier.
+   - Verify that the camera feed is displayed with adjustable zoom and contrast settings.
+
+6. **Switch Control:**
+   - Enable Switch Control from Settings > Accessibility > Switch Control.
+   - Set up switches or a hardware device for control.
+   - Test navigating through on-screen items using switches.
+   - Verify that actions like tapping and scrolling can be performed using switches.
+
+7. **AssistiveTouch:**
+   - Enable AssistiveTouch from Settings > Accessibility > Touch > AssistiveTouch.
+   - Configure custom gestures and actions.
+   - Verify that the on-screen menu appears and that gestures trigger the defined actions.
+
+8. **Speak Screen:**
+   - Enable Speak Screen from Settings > Accessibility > Spoken Content > Speak Screen.
+   - Open a long article or webpage in Safari.
+   - Swipe down with two fingers from the top of the screen to trigger spoken content.
+
+9. **Subtitles & Captioning:**
+   - Enable Subtitles & Captioning from Settings > Accessibility > Subtitles & Captioning.
+   - Play a video with available subtitles/captions.
+   - Verify that the correct subtitles are displayed at the appropriate times.
+
+**Postconditions:**
+All accessibility settings have been thoroughly tested and verified for their intended functionality.
+
+**Notes:**
+- For each test step, ensure that the specific accessibility setting is enabled, perform the corresponding actions, and validate the outcomes.
+- Any inconsistencies or deviations from expected behavior should be reported as defects in the testing process.
