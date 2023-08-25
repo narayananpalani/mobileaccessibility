@@ -1,0 +1,81 @@
+Test Case: Android Phone Accessibility Verification
+
+**Test Case ID:** APCA-001  
+**Test Case Title:** Android Phone Accessibility Verification
+
+**Objective:** To verify the accessibility features and functionality on an Android phone to ensure they are properly implemented and working as intended.
+
+**Preconditions:**
+1. An Android phone with the latest software update is available.
+2. Accessibility features are enabled in the phone's settings.
+
+**Test Steps:**
+
+**Step 1:** Verify Accessibility Settings
+
+1. Navigate to the phone's "Settings" app.
+2. Scroll down and tap on "Accessibility".
+
+**Expected Result:** The Accessibility settings screen should open.
+
+**Step 2:** Verify TalkBack Feature
+
+1. Inside the Accessibility settings, tap on "Screen readers" or "TalkBack", depending on the Android version.
+2. Toggle on the "TalkBack" switch.
+3. A confirmation dialog should appear, explaining that enabling TalkBack will change the phone's behavior.
+
+**Expected Result:** The TalkBack feature should be enabled, and the user should be able to navigate the phone's interface using gestures and hear spoken feedback.
+
+**Step 3:** Verify Magnification Gesture
+
+1. In the Accessibility settings, tap on "Magnification".
+2. Toggle on the "Magnification gesture" switch.
+3. Perform a triple-tap on the screen.
+
+**Expected Result:** The screen should be magnified, and the user should be able to pan around by dragging three fingers on the screen.
+
+**Step 4:** Verify High Contrast Text
+
+1. Go back to the Accessibility settings.
+2. Tap on "Display".
+3. Toggle on the "High contrast text" switch.
+
+**Expected Result:** The text on the screen should change to a high contrast mode, making it easier to read.
+
+**Step 5:** Verify Caption Preferences
+
+1. Return to the Accessibility settings.
+2. Tap on "Captions".
+3. Toggle on the "Use captions" switch.
+4. Adjust caption settings if available (e.g., text size, style, color).
+
+**Expected Result:** Captions should be displayed on supported content, and the user should be able to customize caption appearance.
+
+**Step 6:** Verify Voice Access
+
+1. Navigate back to Accessibility settings.
+2. Tap on "Voice Access".
+3. Toggle on the "Voice Access" switch.
+4. A dialog should prompt the user to download the necessary voice access app if not already installed. Follow the prompts to install it.
+5. Use voice commands to navigate through the phone's interface (e.g., "Open Settings", "Go back", "Scroll down").
+
+**Expected Result:** The user should be able to control the phone using voice commands and navigate through different apps and settings.
+
+**Step 7:** Verify Interaction Control
+
+1. Return to the Accessibility settings.
+2. Tap on "Interaction control".
+3. Toggle on the "Interaction control" switch.
+4. Draw a rectangle around an area of the screen.
+5. Try interacting with the defined area to ensure only that area responds to touch gestures.
+
+**Expected Result:** The defined area should be the only part of the screen responding to touch, blocking interaction with the rest of the screen.
+
+**Postconditions:**
+1. All accessibility features have been verified.
+2. Accessibility settings are left as they were before testing.
+
+**Notes:**
+- The test steps above are general and may vary depending on the Android version and device manufacturer.
+- It's important to test various accessibility features on different apps and screen contexts to ensure consistent functionality.
+- If the test fails at any step, the exact issue should be documented, including any error messages or unexpected behavior encountered.
