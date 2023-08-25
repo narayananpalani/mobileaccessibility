@@ -1,0 +1,66 @@
+Test Case: Android TalkBack Custom Commands Verification
+
+**Test Case ID:** ATCC-001  
+**Test Case Title:** Android TalkBack Custom Commands Verification
+
+**Objective:** To verify the functionality and effectiveness of custom commands in TalkBack on an Android device.
+
+**Preconditions:**
+1. An Android device with TalkBack enabled and configured.
+2. Custom commands have been defined in TalkBack settings.
+
+**Test Steps:**
+
+**Step 1:** Access TalkBack Settings
+
+1. Open the "Settings" app on the Android device.
+2. Scroll down and tap on "Accessibility".
+3. Tap on "Screen readers" or "TalkBack", depending on the Android version.
+4. Tap on "Settings" or "Customize settings" under TalkBack.
+
+**Expected Result:** The TalkBack settings screen should open with options to customize TalkBack functionality.
+
+**Step 2:** Define Custom Command
+
+1. Inside the TalkBack settings, locate and tap on "Custom actions" or "Custom gestures".
+2. Tap on "Add" or "Create new gesture/command".
+3. Assign a gesture or key combination (e.g., double-tap and hold, swipe left and up) to the custom command.
+4. Enter a name for the custom command.
+5. Define the action associated with the custom command (e.g., launch an app, open notifications, read clipboard).
+
+**Expected Result:** The custom command should be successfully created and associated with the defined gesture or key combination.
+
+**Step 3:** Test Custom Command
+
+1. Exit the TalkBack settings and return to the device's home screen.
+2. Use the assigned gesture or key combination for the custom command.
+3. Observe the behavior of the device in response to the custom command.
+
+**Expected Result:** The device should perform the action associated with the custom command as defined in the settings.
+
+**Step 4:** Edit Custom Command (Optional)
+
+1. If needed, return to the TalkBack settings.
+2. Locate the custom command settings.
+3. Edit the existing custom command by modifying the gesture, name, or action.
+4. Save the changes.
+
+**Expected Result:** The changes made to the custom command should be saved successfully.
+
+**Step 5:** Delete Custom Command (Optional)
+
+1. In the TalkBack settings, find the list of custom commands.
+2. Locate the custom command you want to delete.
+3. Select the option to delete or remove the custom command.
+4. Confirm the deletion.
+
+**Expected Result:** The selected custom command should be deleted from the list of custom actions.
+
+**Postconditions:**
+1. Custom commands in TalkBack settings have been tested and verified.
+2. Any edits or deletions made are noted if applicable.
+
+**Notes:**
+- Custom commands may vary based on the Android version, TalkBack version, and device manufacturer.
+- Custom commands should be defined and tested for a variety of use cases to ensure their effectiveness and reliability.
+- The specific gestures, key combinations, and actions used in this test case are examples and can be adjusted as needed.
