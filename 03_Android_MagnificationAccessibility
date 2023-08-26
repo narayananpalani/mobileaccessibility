@@ -1,0 +1,78 @@
+Test Case: Android Phone Accessibility Test using Magnification
+
+**Test Case ID:** APATM-001  
+**Test Case Title:** Android Phone Accessibility Test using Magnification
+
+**Objective:** To verify the accessibility features of an Android phone by testing the functionality of the magnification feature.
+
+**Preconditions:**
+1. An Android phone with the latest software update is available.
+2. Accessibility features are enabled in the phone's settings.
+
+**Test Steps:**
+
+**Step 1:** Access Accessibility Settings
+
+1. Open the "Settings" app on the Android phone.
+2. Scroll down and tap on "Accessibility".
+
+**Expected Result:** The Accessibility settings screen should open.
+
+**Step 2:** Enable Magnification
+
+1. Inside the Accessibility settings, locate and tap on "Magnification".
+2. Toggle on the "Magnification gestures" switch.
+
+**Expected Result:** Magnification gestures are successfully enabled.
+
+**Step 3:** Perform Magnification
+
+1. Return to the phone's home screen.
+2. Perform a triple-tap on an area of the screen with content (e.g., an app icon, text).
+
+**Expected Result:** The selected area of the screen should be magnified.
+
+**Step 4:** Pan and Navigate while Magnified
+
+1. With the screen magnified, use three fingers to swipe or drag in different directions.
+2. Swipe to navigate around the magnified area.
+3. Pinch or spread three fingers to zoom in or out while magnified.
+
+**Expected Result:** The magnified area should pan and navigate as directed, and zooming in or out should function as expected.
+
+**Step 5:** Verify Interaction with Magnified Content
+
+1. While the screen is magnified, tap on icons, buttons, or text within the magnified area.
+2. Attempt to interact with the content as you normally would.
+
+**Expected Result:** Interactions with the magnified content should work as expected, registering taps and actions accurately.
+
+**Step 6:** Adjust Magnification Settings (Optional)
+
+1. Return to the Accessibility settings.
+2. Tap on "Magnification" settings.
+3. Adjust settings such as magnification level and magnification window size.
+
+**Expected Result:** Changes made to the magnification settings should be saved and affect the magnification behavior.
+
+**Step 7:** Verify Magnification Behavior in Different Apps
+
+1. Open various apps with different types of content, such as a web browser, messaging app, or photo viewer.
+2. Perform magnification gestures and interact with content within each app.
+
+**Expected Result:** Magnification gestures should work consistently across different apps, and content should be accurately magnified.
+
+**Step 8:** Disable Magnification
+
+1. Return to the Accessibility settings.
+2. Toggle off the "Magnification gestures" switch.
+
+**Expected Result:** Magnification gestures should be successfully disabled.
+
+**Postconditions:**
+1. Android phone accessibility using the magnification feature has been successfully tested.
+2. Any issues or discrepancies encountered during testing are documented.
+
+**Notes:**
+- The specific magnification gestures and their behavior can vary based on the Android version and device manufacturer.
+- It's important to test magnification in various apps and contexts to ensure consistent functionality.
