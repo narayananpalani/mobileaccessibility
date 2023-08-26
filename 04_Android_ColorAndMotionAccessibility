@@ -1,0 +1,80 @@
+Test Case: Android Device Accessibility Test using Color and Motion
+
+**Test Case ID:** ADACM-001  
+**Test Case Title:** Android Device Accessibility Test using Color and Motion
+
+**Objective:** To verify the accessibility features of an Android device by testing the functionality of color and motion-based accessibility settings.
+
+**Preconditions:**
+1. An Android device with the latest software update is available.
+2. Accessibility features are enabled in the device's settings.
+
+**Test Steps:**
+
+**Step 1:** Access Accessibility Settings
+
+1. Open the "Settings" app on the Android device.
+2. Scroll down and tap on "Accessibility".
+
+**Expected Result:** The Accessibility settings screen should open.
+
+**Step 2:** Test Color Correction
+
+1. Inside the Accessibility settings, locate and tap on "Display & Text Size" or "Display".
+2. Find the option for "Color correction" or "Color enhancement".
+3. Toggle on the color correction feature if it's not already enabled.
+
+**Expected Result:** Color correction should be enabled, adjusting colors on the screen for improved visibility.
+
+**Step 3:** Verify Color Correction Variants
+
+1. Under the color correction settings, find different options for color variants, such as "Grayscale", "Inverted", "Colorblindness", etc.
+2. Select one of the color correction variants.
+3. Use the device to navigate through different apps and interfaces.
+
+**Expected Result:** The selected color correction variant should be applied consistently across different apps and interfaces.
+
+**Step 4:** Test Reduce Motion
+
+1. Return to the Accessibility settings.
+2. Find and tap on "Motion & Interaction" or "Motion".
+3. Enable the "Reduce motion" option.
+
+**Expected Result:** Motion effects should be reduced or disabled, making the device interface less visually overwhelming.
+
+**Step 5:** Verify Motion Reduction Effects
+
+1. With "Reduce motion" enabled, navigate through the device's interface.
+2. Open apps, switch between screens, and perform different interactions.
+
+**Expected Result:** Motion effects, such as parallax scrolling and animations, should be minimized or absent in the interface.
+
+**Step 6:** Test Display Size Adjustment
+
+1. Return to the Accessibility settings.
+2. Find the option to adjust "Display size" or "Text size".
+3. Modify the display size to a larger or smaller value.
+
+**Expected Result:** The display size adjustment should affect the size of text and UI elements across the device's interface.
+
+**Step 7:** Verify Display Size Effects
+
+1. With the display size adjusted, navigate through various apps and content.
+2. Observe how text and UI elements scale in relation to the chosen display size.
+
+**Expected Result:** Display size adjustments should consistently affect the size of text and UI elements throughout different apps.
+
+**Step 8:** Reset Accessibility Settings
+
+1. Return to the Accessibility settings.
+2. Reset any color correction, motion reduction, or display size adjustments made during testing to their default settings.
+
+**Expected Result:** Accessibility settings should be reverted to their default values.
+
+**Postconditions:**
+1. Android device accessibility using color and motion-related settings has been successfully tested.
+2. Any issues or discrepancies encountered during testing are documented.
+
+**Notes:**
+- It's important to test color correction and motion reduction effects in various apps and interfaces to ensure consistent results.
+- Some settings and options may vary based on the Android version and device manufacturer.

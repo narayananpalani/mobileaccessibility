@@ -1,0 +1,78 @@
+Test Case: Android Phone Accessibility Test using Text-to-Speech Output
+
+**Test Case ID:** APATTS-001  
+**Test Case Title:** Android Phone Accessibility Test using Text-to-Speech Output
+
+**Objective:** To verify the accessibility features of an Android phone by testing the functionality of the Text-to-Speech (TTS) output.
+
+**Preconditions:**
+1. An Android phone with the latest software update is available.
+2. Accessibility features are enabled in the phone's settings.
+3. A text-based content or app is available for testing.
+
+**Test Steps:**
+
+**Step 1:** Access Accessibility Settings
+
+1. Open the "Settings" app on the Android phone.
+2. Scroll down and tap on "Accessibility".
+
+**Expected Result:** The Accessibility settings screen should open.
+
+**Step 2:** Enable Text-to-Speech Output
+
+1. Inside the Accessibility settings, locate and tap on "Text-to-Speech" or "Vision" settings, depending on the Android version.
+2. Enable the "Text-to-Speech Output" option if not already enabled.
+3. Select a preferred TTS engine if multiple options are available.
+
+**Expected Result:** The TTS engine is successfully enabled, and a default TTS engine is selected.
+
+**Step 3:** Test TTS Output
+
+1. Return to the phone's home screen.
+2. Open a text-based app or content (e.g., a text document, a web page).
+3. Select a portion of text within the app.
+4. Use the appropriate gesture (such as a long press) to trigger the TTS option.
+5. Observe and listen to the TTS output.
+
+**Expected Result:** The selected text is accurately read aloud using the TTS engine.
+
+**Step 4:** Adjust TTS Settings (Optional)
+
+1. Return to the Accessibility settings.
+2. Tap on "Text-to-Speech" or "Vision" settings.
+3. Access the settings for the selected TTS engine.
+4. Adjust settings such as speech rate, pitch, and language.
+
+**Expected Result:** Any changes made to the TTS engine settings are successfully saved and affect the TTS output.
+
+**Step 5:** Test TTS with Notifications
+
+1. Return to the home screen or another app.
+2. Wait for a notification to arrive (e.g., a text message, email, or app notification).
+3. When a notification arrives, the TTS engine should automatically read the notification content aloud.
+
+**Expected Result:** The TTS engine should read the content of incoming notifications as expected.
+
+**Step 6:** Test TTS in Different Apps
+
+1. Open various apps that have text-based content, such as a web browser, note-taking app, or messaging app.
+2. Repeat the process of selecting text and triggering TTS in each app.
+
+**Expected Result:** TTS should work consistently across different apps, accurately reading selected text.
+
+**Step 7:** Verify TTS Interruption
+
+1. Play a media file (e.g., a music track or video) with sound.
+2. While the media is playing, trigger TTS by selecting text.
+3. Observe if the media playback is appropriately paused during TTS playback.
+
+**Expected Result:** Media playback should pause during TTS output and resume once TTS is complete.
+
+**Postconditions:**
+1. Android phone accessibility using Text-to-Speech output has been successfully tested.
+2. Any issues or discrepancies encountered during testing are documented.
+
+**Notes:**
+- TTS functionality can vary based on the TTS engine selected and the app being used.
+- This test case assumes that the TTS engine is functioning correctly. The actual implementation may differ based on the Android version and device manufacturer.
